@@ -7,3 +7,6 @@ function compterOccurrences(tab,valeur){
     }
     return compteur;
 }
+let tableau = [1, 2, 3, 2, 4, 2, 5];
+let resultat = compterOccurrences(tableau, 2);
+console.log("Nombre d'occurrences :", resultat);

@@ -7,3 +7,6 @@ function macTableau(tab){
     }
     return max;
 }
+let tableau = [3, 7, 2, 9, 5];
+let resultat = maxTableau(tableau);
+console.log("Le maximum est :", resultat);

@@ -5,3 +5,6 @@ function inverserTableau(tab){
     }
     return table;
 }
+let tableau = [1, 2, 3, 4, 5];
+let resultat = inverserTableau(tableau);
+console.log(resultat);

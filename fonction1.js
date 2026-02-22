@@ -7,3 +7,6 @@ function remplirTableau(length){
     }
     return tab;
 }
+let taille = prompt("Combien de nombres voulez-vous entrer ?");
+let resultat = remplirTableau(Number(taille));
+console.log(resultat);
